@@ -1,0 +1,295 @@
+:root{
+    --darkturquoise: #027373;
+    --darkblue: #121d2f;
+    --lightblue:#16263f;
+    --turquoise: #088879;
+    --lightturquoise: #a9d0d0;
+    --green: #2BAD3B;
+    --white: #fafcfc;
+    --black: #0d0d0d;
+    --red: #A60000;
+    --orange: #ED9200;
+}
+* {
+    color: white;
+}
+body {
+    background-color: var(--darkblue);
+}
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: var(--orange);
+}
+.head {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+header {
+    background-image: url(https://zastavok.net/main/priroda/1398214081.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 10% 0%;
+}
+.photo {
+    max-width: 100%;
+}
+.description {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.ditales {
+    border-style: solid;
+    border-color: var(--orange);
+    border-width: 0.1em;
+    padding: 2% 2% 0% 2%;
+}
+h3 {
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    padding-bottom: 13px;
+    margin-bottom: 5%;
+}
+h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 2px;
+    background-color: var(--orange);
+}
+h1 {
+    color: var(--orange);
+    text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+    text-shadow: 2px 2px 4px #000000;
+}
+h4, h5 {
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    color: #accccc;
+    background-color: #242424;
+    padding: 1% 0% 1% 2%;
+}
+section {
+    padding-bottom: 5%;
+}
+.navigation {
+    padding-right: 0%;
+}
+.orange-text {
+    color: var(--orange);
+}
+.boldorange {
+    color: #cc7832;
+}
+.purple {
+    color: #9876aa;
+}
+.green {
+    color: #6a8743;
+}
+.yellow {
+    color: #ffc66d;
+}
+.light-blue {
+    background-color: var(--lightblue);
+    padding:0% 5% 5% 5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.progress {
+    background-color: white;
+}
+.progress-container{
+    position: relative;
+    margin-bottom: 22%;
+}
+.percent {
+    position: absolute;
+    top: -5px;
+    width: 42px;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 4px;
+    margin-bottom: 0%;
+}
+.percent::before {
+    content: '';
+    margin-bottom: 0%;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    padding: 4px;
+    background: var(--lightblue);
+    border: 1px solid var(--orange);
+    border-color: transparent var(--orange) var(--orange) transparent;
+    transform: translateX(-50%) rotate(45deg);
+}
+.progress-bar {
+    background-color: var(--orange);
+}
+.center {
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+}
+.circle {
+    padding: 10px 20px;
+    border-radius: 50%;
+    background-color: var(--darkblue);
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: var(--orange);
+  }
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 1.5px solid var(--orange);
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 1px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 1.5px solid var(--orange);
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 1.5px solid var(--orange);
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -55%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -55%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+.end {
+    padding-bottom: 0%;
+}
+#Contacts a {
+    text-decoration: none;
+}
+#Contacts .end-text {
+    color: var(--orange);
+}
+#Contacts .end-text:hover{
+    color: var(--red);
+
+}
+.logo {
+    display: grid;
+    align-items: end;
+}
+.logo img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20%;
+    width: 150%;
+}
+.logo p {
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 0;
+}
+.html {
+    left: calc(75% - 21px);
+}
+.css {
+    left: calc(70% - 21px);
+}
+.js {
+    left: calc(40% - 21px);
+}
+.git {
+    left: calc(50% - 21px);
+}
+.exel {
+    left: calc(90% - 21px);
+}
+.powerpoint {
+    left: calc(95% - 21px);
+}
+.windows {
+    left: calc(80% - 21px);
+}
+.linux {
+    left: calc(70% - 21px);
+}
+.eng {
+    left: calc(75% - 21px);
+}
+.progress {
+    width: 100%;
+    height: 0.1rem;
+    background: var(--orange);
+}
+progress::-webkit-progress-value {
+    background: var(--orange);
+}
+progress::-webkit-progress-bar {
+    background: white;
+}
+progress::-moz-progress-value {
+    background: var(--orange);
+}
+progress::-moz-progress-bar {
+    background: white;
+}
+
