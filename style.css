@@ -23,7 +23,6 @@ body {
 .nav-link:hover {
     color: var(--orange);
 }
-
 .head {
     margin-left: 0%;
     margin-right: 0%;
@@ -162,7 +161,6 @@ section {
     border-style: solid;
     border-color: var(--orange);
   }
-  
   .how-it-works.row .col-2 {
     align-self: stretch;
   }
@@ -246,9 +244,38 @@ section {
     padding-bottom: 20%;
     width: 150%;
 }
-.logo p{
+.logo p {
     font-size: smaller;
     text-align: center;
     margin-bottom: 0;
 }
-
+.html {
+    left: calc(75% - 21px);
+}
+.css {
+    left: calc(70% - 21px);
+}
+.js {
+    left: calc(40% - 21px);
+}
+.git {
+    left: calc(50% - 21px);
+}
+.exel {
+    left: calc(90% - 21px);
+}
+.poxerpoint {
+    left: calc(95% - 21px);
+}
+.windows {
+    left: calc(80% - 21px);
+}
+.linux {
+    left: calc(70% - 21px);
+}
+.eng {
+    left: calc(75% - 21px);
+}
+.progress {
+    height: 1.5px;
+}
